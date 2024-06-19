@@ -1,0 +1,17 @@
+In how many ways can the letters of the word 'LEADER' be arranged?
+A. 72
+B. 144
+C. 360
+D. 720
+Ans:
+The word "LEADER" has 6 letters, but it has 2 Es, which are identical. Therefore, we need to divide the total number of permutations by the number of ways to arrange the identical Es.
+The total number of permutations is 6! = 6 × 5 × 4 × 3 × 2 × 1 = 720
+
+Since there are 2 identical Es, we need to divide by 2! = 2 × 1 = 2
+
+So, the correct number of ways to arrange the letters in the word "LEADER" is:
+
+720 ÷ 2 = 360
+
+Therefore, the correct answer is:
+C. 360
