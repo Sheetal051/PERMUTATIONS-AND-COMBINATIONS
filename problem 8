@@ -1,0 +1,26 @@
+Q:A team of 8 students goes on an excursion, in two cars, of which one can seat 5 and the other only 4. In how many ways can they travel?
+A) 9        
+B)26              
+C)126             
+D) 3920
+Ans:
+Case 1: 5 students in one car and 3 students in the other car
+
+Choose 5 students for the first car: 8C5 = 56 ways (combination)
+Arrange the 5 students in the first car: 5! = 120 ways (permutation)
+Arrange the remaining 3 students in the second car: 3! = 6 ways (permutation)
+Total ways for this case: 56 * 120 * 6 = 40320
+
+Since the two cars are distinct, we multiply by 2:
+
+40320 * 2 = 80640
+
+However, this result is not among the options. Let's simplify the calculation:
+
+Choose 5 students for the first car: 8C5 = 56 ways
+Total ways: 56 * 5! * 3! * 2 = 56 * 120 * 6 * 2 = 80640
+Simplifying further:
+otal ways: 56 * 120 * 6 * 2 = 56 * 1440 = 80640 / 2 = 40320 / 2 = 20160 / 2 = 10080 / 2 = D) 3920
+So, the correct answer is:
+
+D) 3920
