@@ -1,0 +1,18 @@
+Q:In a room there are 12 bulbs of the same wattage, each having a separate switch. The number of ways to light the room with different amounts of illumination is
+A.12^2-1
+B. 2^12
+C.2^12-1
+D. none of these
+Ans:
+This problem is about counting the number of possible combinations of bulbs that can be turned on to light the room.
+
+Since each bulb has a separate switch, each bulb can be either ON or OFF. This is a binary choice, and there are 2 possible states for each bulb.
+
+Since there are 12 bulbs, the total number of possible combinations is:
+
+2 (options for each bulb) × 2 × 2 ×... (12 times) = 2^12
+
+However, we need to subtract 1 from this total because one of the combinations is when all bulbs are OFF, which means the room is not lit at all. So, the correct answer is:
+C. 2^12 - 1
+
+This is because we want to count the number of ways to light the room with different amounts of illumination, and having all bulbs OFF doesn't contribute to any illumination.
