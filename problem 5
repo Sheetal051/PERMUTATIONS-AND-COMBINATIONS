@@ -1,0 +1,23 @@
+Q: How many numbers greater than a million can be formed with the digits 2,3,0,4,3,3,3 ?
+A. 300
+B. 360
+C. 440
+D. 620
+Ans:
+Let's break this down step by step!
+
+We want to form numbers greater than a million, which means the number should have at least 7 digits (since 1,000,000 is a 7-digit number).
+
+We have 7 digits available: 2, 3, 0, 4, 3, 3, and 3. We can use each digit only as many times as it appears in the given set.
+
+To form a 7-digit number greater than a million, we need to ensure that the first digit (the most significant digit) is not 0. If it were 0, the number would be less than a million. So, we have 3 options for the first digit: 2, 3, or 4.
+
+For each of these 3 options, we can arrange the remaining 6 digits in different ways. We have 6 digits left, and we need to arrange them in 6 positions. Since some digits are repeated (we have 4 threes), we need to use the concept of permutations with repetition.
+
+The number of ways to arrange the 6 digits is:
+6! / (3! × 1! × 1!) = 360
+
+So, the total number of 6-digit numbers greater than a million that can be formed is: 360
+
+Therefore, the correct answer is:
+B. 360
