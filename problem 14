@@ -1,0 +1,17 @@
+Q:. In how many different ways can five friends sit for a photograph of five chairs in a row?
+A. 120 ways 
+B. 24 ways 
+C. 240 ways 
+D. 720 ways
+Ans:
+This is a classic permutation problem. Since there are 5 friends and 5 chairs, each friend can sit in any of the 5 chairs. We can arrange them as follows:
+
+The first friend can sit in any of the 5 chairs (5 options)
+The second friend can sit in any of the remaining 4 chairs (4 options)
+The third friend can sit in any of the remaining 3 chairs (3 options)
+The fourth friend can sit in any of the remaining 2 chairs (2 options)
+The fifth friend can sit in the only remaining chair (1 option)
+To find the total number of ways, we multiply the options at each step:
+
+5 * 4 * 3 * 2 * 1 = 120
+So, the correct answer is A) 120 ways.
