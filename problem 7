@@ -1,0 +1,37 @@
+Q:How many different words can be formed from the alphabets of the word SCISSORS?
+A. 1440 
+B. 1680
+C. 1800 
+D. 2100
+Ans:
+To determine how many different words can be formed from the alphabets of the word SCISSORS, we start by noting that the word SCISSORS consists of 8 letters with some repetitions.
+
+The word SCISSORS contains:
+S: 4 times
+C: 1 time
+I: 1 time
+O: 1 time
+R: 1 time
+The total number of distinct permutations of these letters can be calculated using the formula for permutations of a multiset:
+Number of permutations=
+n!/n1!*n2!*.....*nk!
+where n is the total number of letters, and n1,n2,....nk are the frequencies of the repeated letters.
+For SCISSORS, we have:
+Total letters (n) = 8
+Frequencies :S=4,C=1,I=1,O=1,R=1
+
+Thus, the number of different words is given by:
+Number of permutations=
+8!/4!*1!*1!*1!*1!
+
+First, calculate 8!:
+8!=8×7×6×5×4×3×2×1=40320
+
+Next, calculate 4!:
+4!=4×3×2×1=24
+
+Now, compute the number of permutations:
+
+Number of permutations =
+40320/24 = 1680
+Therefore, the number of different words that can be formed from the alphabets of the word SCISSORS is: 1680 (option B)
