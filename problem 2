@@ -1,0 +1,28 @@
+In how many ways can 5 boys and 4 girls be seated in a row, so that they alternate?
+A. 5!
+B. 5!×2!
+C. 4!×5!
+D. None of these
+Ans:
+Let's solve this problem:
+
+Determine the pattern of seating:
+
+There are two possible alternating patterns: starting with a boy or starting with a girl.
+Since there are 5 boys and 4 girls, we must start with a boy to ensure alternating pattern completion. Thus, the pattern will be Boy-Girl-Boy-Girl-Boy-Girl-Boy-Girl-Boy.
+
+Arrange the boys in their positions:
+
+There are 5 boys, and they can be arranged in the 5 boy positions in 5! ways.
+
+Arrange the girls in their positions:
+
+There are 4 girls, and they can be arranged in the 4 girl positions in 4! ways.
+
+Combine these arrangements:
+
+The total number of ways to seat the boys and girls alternately is the product of the number of ways to arrange the boys and the number of ways to arrange the girls:
+5!×4!
+
+Therefore, the number of ways to seat 5 boys and 4 girls alternately is:
+4!×5!  (Which is option C).
