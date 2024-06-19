@@ -1,0 +1,17 @@
+Q:A gentleman has got 6 sorts of note papers, 7 different ink-stands and 4 different pens. In how many ways can he begin to write a letter?
+A. 168
+B. 176
+C. 186
+D. 196
+Ans:
+To find the number of ways the gentleman can begin to write a letter, we need to calculate the product of the number of choices for each item:
+
+There are 6 choices for the note paper.
+There are 7 choices for the ink-stand.
+There are 4 choices for the pen.
+The total number of ways to choose all three items is:
+
+6 × 7 × 4 = 168
+
+Therefore, the correct answer is:
+A. 168
