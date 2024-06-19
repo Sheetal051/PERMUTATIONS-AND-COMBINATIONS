@@ -1,0 +1,13 @@
+Q:There are 2 brothers among a group of 20 persons. In how many ways can the group be arranged around a circle so that there is exactly one person between the two brothers?
+A) 2 * 19!             
+B)18! * 18                 
+C) 19! * 18               
+D)2 * 18!
+Ans:
+The person who sits in between the two brothers can be selected in 18 ways. Consider the two brothers and the person in between the brothers as one unit. Then the number of distinct units are 20 - 3 + 1 = 18.
+
+Now the brothers can be arranged on either side of the person in 2! ways
+
+Therefore, the total number of ways = 18 * (18 - 1)! × 2 = 2 * 18!
+
+Thus, the correct option is: D) 2 * 18!
