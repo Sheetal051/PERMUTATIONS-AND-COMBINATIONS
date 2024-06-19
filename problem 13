@@ -1,0 +1,14 @@
+Q:A selection is to be made for one post of principal and two posts of vice-principal amongst the six candidates called for the interview only two are eligible for the post of principal while they all are eligible for the post of vice-principal. The number of possible combinations of selectees is:
+A. 4
+B. 12
+C. 18
+D. 20
+Ans:
+1.For the post of Principal, there are 2 eligible candidates, so we can select 1 principal in 2C1 = 2 ways.
+2.For the post of Vice-Principal, there are 6 eligible candidates (including the 2 who are eligible for Principal). We need to select 2 Vice-Principals from the remaining 5 candidates (since 1 is already selected as Principal). This can be done in 5C2 = 10 ways.
+
+Now, we multiply the number of ways to select the Principal with the number of ways to select the Vice-Principals:
+
+2 (ways to select Principal) * 10 (ways to select Vice-Principals) = 20
+
+So, the correct answer is D) 20.
