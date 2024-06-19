@@ -1,0 +1,17 @@
+A round table conference is to be held among 25 delegates from 25 countries. In how many ways can they be seated if two particular delegates are always to sit together?
+A. 23!
+B. 2! ×23!
+C. 3! ×23!
+D. None of these
+Ans:
+Let's break this problem down step by step.
+
+Since two particular delegates are always to sit together, we can consider them as a single unit. This means we have 24 "units" (23 individual delegates + 1 pair of delegates) to be seated around a round table.
+
+The number of ways to arrange these 24 units around a round table is (24-1)! = 23!.
+
+Now, within the pair of delegates, they can be arranged in 2! ways (i.e., delegate A on the left and delegate B on the right, or delegate B on the left and delegate A on the right).
+
+So, the total number of ways to seat the delegates is 2! × 23!.
+
+Therefore, the correct answer is B. 2! × 23!.
