@@ -1,0 +1,17 @@
+Q:In how many ways can 15 people be seated around two round tables with seating capacities of 7 and 8 people?
+A) 15!/(8!)            
+B) 7!*8!            
+C) (15C8)*6!*7!            
+D)2*(15C7)*6!*7!
+Ans:
+We can choose 7 people from the 15 to sit at the table with a capacity of 7, which can be done in 15C7 ways.
+
+Then, we arrange these 7 people around the table, which can be done in 6! ways (since it's a circular table).
+
+The remaining 8 people will sit at the other table, and we can arrange them in 7! ways.
+
+However, we need to consider the fact that the two tables are identical, so we need to multiply the result by 2 to account for the fact that we could have chosen the other table for the 7 people.
+
+Therefore, the total number of ways to seat the 15 people is 2*(15C7)*6!*7!.
+
+So, the correct answer is option D) 2*(15C7)*6!*7!.
