@@ -1,0 +1,20 @@
+Q:How many ways can 10 letters be posted in 5 post boxes, if each of the post
+boxes can take more than 10 letters?
+A) 510                  
+B) 105           
+C) 10P5 
+D) 10C5
+Ans:
+Since each post box can take more than 10 letters, we can consider each letter as distinct and assign it to any of the 5 post boxes.
+
+So, for each of the 10 letters, we have 5 options (post boxes) to choose from.
+
+Using the fundamental counting principle, we multiply the number of options for each letter:
+
+5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 × 5 = 5^10
+
+Therefore, there are 5^10 = 9765625 ways to post 10 letters in 5 post boxes.
+
+None of the provided choices (A) 510, (B) 105, (C) 10P5, (D) 10C5 are correct in this context. The correct answer is:
+
+5^10=9765625
